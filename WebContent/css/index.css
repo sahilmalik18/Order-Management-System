@@ -1,0 +1,87 @@
+*{
+box-sizing:border-box;
+}
+
+#name{
+  background-color:#ecf7fc;
+  border:none;
+  border-bottom: 2px solid orange;
+  height:30px;
+  width:300px;
+}
+
+#pass{
+  background-color:#ecf7fc;
+  border:none;
+  border-bottom: 2px solid orange;
+  height:30px;
+  width:300px;
+}
+
+.button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  position:absolute;
+  top:190px;
+  font-size:12px;
+  width:100px;
+  right:-245px;
+}
+
+.header{
+display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: 80px 80px 80px;
+}
+
+.header-logo-div{
+text-align:left;
+}
+
+.hrc-logo{
+width:15%;
+}
+
+.login-screen{
+     position:absolute;
+     top:170px;
+right:500px;
+font-family:"Century Gothic";
+font-size:18px;
+color:#c0c0c0;
+}
+
+.login-form{
+position:absolute;
+top:40px;
+font-family:"Roboto";
+font-size:13px;
+color:black;
+}
+
+.order-manage{
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+position:absolute;
+padding-left:15px;
+padding-bottom:10px;
+padding-top:10px;
+padding-right:10px;
+top:300px;
+left:0px;
+font-size:20px;
+font-family:"Century Gothic";
+background-color: #8FD163;
+color:white;
+box-sizing: border-box;
+   
+}
+.error{
+	position:absolute;
+	top:50px;
+	font-color:red;
+}
